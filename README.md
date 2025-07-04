@@ -19,11 +19,13 @@ This project contains automated test cases for a web application using the Page 
 
 ## 🚀 How to Run the Tests
 
-1. Clone this repository  
-2. Open it in Eclipse  
-3. Run `mvn clean test` or execute tests via TestNG suite
+1. Clone or download this repository  
+2. Open the project in **Eclipse**  
+3. Navigate to any test class (e.g., `RegisterTest.java`)  
+4. **Right-click** on the file → **Run As** → **TestNG Test**  
+5. To view the test report, go to the `reports` folder → **Right-click the HTML file** → **Open With** → **Web Browser** or **System Editor**
 
-> Test reports will be available in the `test-output` or `ExtentReports` folder.
+> Test reports will be available in the `test-output` or `reports` folder.
 
 ---
 

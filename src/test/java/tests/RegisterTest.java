@@ -24,7 +24,7 @@ public class RegisterTest extends BaseTest{
 		
 		registerPage.enterFirstName("John");
 		registerPage.enterLastName("Doe");
-		registerPage.enterEmail("john.doe" + System.currentTimeMillis() + "@mail.com");
+		registerPage.enterEmail("john.doe23@mail.com");
 		registerPage.enterCompanyName("Doe Inc.");
 		registerPage.clickNewsLetter();
 		registerPage.enterPassword("Test@1234");

@@ -75,7 +75,7 @@ public class RegisterPage {
 	
 	public void enterFirstName(String firstName) {
 		firstNameTextBox.sendKeys(firstName);
-		System.out.println(firstName);
+		Log.info("First name entered...");
 	}
 	
 	public boolean firstNameErrorMessage() {
@@ -84,7 +84,7 @@ public class RegisterPage {
 	
 	public void enterLastName(String lastName) {
 		lastNameTextBox.sendKeys(lastName);
-		System.out.println(lastName);
+		Log.info("Last name entered...");
 	}
 	
 	public boolean lastNameErrorMessage() {
@@ -93,7 +93,7 @@ public class RegisterPage {
 	
 	public void enterEmail(String email) {
 		emailTextBox.sendKeys(email);
-		System.out.println(email);
+		Log.info("Email entered...");
 	}
 	
 	public boolean emailIsRequiredErrorMessage() {
@@ -106,7 +106,7 @@ public class RegisterPage {
 	
 	public void enterCompanyName(String companyName) {
 		companyTextBox.sendKeys(companyName);
-		System.out.println(companyName);
+		Log.info("Company name entered...");
 	}
 	
 	public void clickNewsLetter() {
@@ -116,12 +116,12 @@ public class RegisterPage {
 	
 	public void enterPassword(String password) {
 		passwordTextBox.sendKeys(password);
-		System.out.println(password);
+		Log.info("Password entered...");
 	}
 	
 	public void enterConfirmPassword(String confirmPassword) {
 		confirmPasswordTextBox.sendKeys(confirmPassword);
-		System.out.println(confirmPassword);
+		Log.info("Confirm password entered...");
 	}
 	
 	public boolean passwordIsRequiredErrorMessage() {
@@ -134,5 +134,6 @@ public class RegisterPage {
 	
 	public void clickRegisterBtn() {
 		registerBtn.click();
+		Log.info("Register button clicked...");
 	}
 }

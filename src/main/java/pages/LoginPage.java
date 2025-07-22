@@ -16,6 +16,9 @@ public class LoginPage {
 	@FindBy(id = "Email")
 	WebElement emailTextBox;
 	
+	@FindBy(id = "Email-error")
+	WebElement emailErorText;
+	
 	@FindBy(id = "Password")
 	WebElement passwordTextBox;
 	
@@ -30,6 +33,9 @@ public class LoginPage {
 	
 	@FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button")
 	WebElement loginBtn;
+	
+	@FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div[2]/div[1]/div[2]/form/div[1]")
+	WebElement loginErrorMessage;
 	
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
@@ -56,8 +62,21 @@ public class LoginPage {
 		showPasswordBtn.click();
 	}
 	
+	public void clickRememberMe() {
+		Log.info("Clicking Remember Me checkbox");
+		rememberMeCheckBox.click();
+	}
+	
 	public void clickLoginBtn() {
 		Log.info("Clicking Log in button");
 		loginBtn.click();
+	}
+	
+	public boolean isLoginErrorMessageDisplayed() {
+		return loginErrorMessage.isDisplayed() && loginErrorMessage.getText().contains("Login was unsuccessful. Please correct the errors and try again.");
+	}
+	
+	public boolean isEmailErrortextDisplayed() {
+		return emailErorText.isDisplayed() && emailErorText.getText().contains("Please enter your email");
 	}
 }

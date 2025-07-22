@@ -7,7 +7,7 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="testSuccessfulLogin"/>
+          <include name="testEmptyPasswordField"/>
           <include name="setupReport"/>
           <include name="tearDownReport"/>
         </methods>

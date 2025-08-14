@@ -15,6 +15,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 
 import utils.Log;
+import utils.EmailUtils;
 import utils.ExtentReportManager;
 
 public class BaseTest {
@@ -31,8 +32,8 @@ public class BaseTest {
 	@AfterSuite
 	public void tearDownReport() {
 		extent.flush();
-		//String reportPath = ExtentReportManager.getReportInstance();
-		//EmailUtils.sendTestReport(reportPath);
+		String reportPath = ExtentReportManager.reportPath;
+		EmailUtils.sendTestReport(reportPath);
 	}
 	
 	@BeforeMethod
@@ -55,7 +56,7 @@ public class BaseTest {
 		
 		if(driver != null) {
 			Log.info("Closing the Browser");
-			//driver.quit();
+			driver.quit();
 		}
 	}
 }

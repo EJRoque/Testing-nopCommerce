@@ -3,15 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.LoginTest">
+      <class name="tests.RegisterTest">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="testEmptyPasswordField"/>
           <include name="setupReport"/>
+          <include name="testSuccessfulRegistration"/>
+          <include name="testMismatchedPasswords"/>
+          <include name="testInvalidEmailFormat"/>
           <include name="tearDownReport"/>
         </methods>
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- tests.RegisterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

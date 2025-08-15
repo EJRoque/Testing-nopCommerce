@@ -1409,3 +1409,79 @@
 2025-08-14 22:04:20 [main] INFO  Log - Confirm password entered...
 2025-08-14 22:04:20 [main] INFO  Log - Register button clicked...
 2025-08-14 22:04:20 [main] INFO  Log - Closing the Browser
+2025-08-15 17:48:01 [main] INFO  Log - Setting up WebDriver...
+2025-08-15 17:48:03 [main] INFO  Log - Navigating to test URL
+2025-08-15 17:48:04 [main] INFO  Log - Clicking Login page link...
+2025-08-15 17:48:05 [main] INFO  Log - Entering password
+2025-08-15 17:48:05 [main] INFO  Log - Clicking show password
+2025-08-15 17:48:05 [main] INFO  Log - Clicking Log in button
+2025-08-15 17:48:05 [main] INFO  Log - Closing the Browser
+2025-08-15 17:48:05 [main] INFO  Log - Setting up WebDriver...
+2025-08-15 17:48:06 [main] INFO  Log - Navigating to test URL
+2025-08-15 17:48:06 [main] INFO  Log - Clicking Login page link...
+2025-08-15 17:48:07 [main] INFO  Log - Entering email address
+2025-08-15 17:48:07 [main] INFO  Log - Clicking Log in button
+2025-08-15 17:48:08 [main] INFO  Log - Closing the Browser
+2025-08-15 17:48:08 [main] INFO  Log - Setting up WebDriver...
+2025-08-15 17:48:09 [main] INFO  Log - Navigating to test URL
+2025-08-15 17:48:10 [main] INFO  Log - Clicking Login page link...
+2025-08-15 17:48:11 [main] INFO  Log - Entering email address
+2025-08-15 17:48:11 [main] INFO  Log - Entering password
+2025-08-15 17:48:12 [main] INFO  Log - Clicking show password
+2025-08-15 17:48:12 [main] INFO  Log - Clicking Remember Me checkbox
+2025-08-15 17:48:12 [main] INFO  Log - Clicking Log in button
+2025-08-15 17:48:12 [main] INFO  Log - Closing the Browser
+2025-08-15 17:48:12 [main] INFO  Log - Setting up WebDriver...
+2025-08-15 17:48:13 [main] INFO  Log - Navigating to test URL
+2025-08-15 17:48:14 [main] INFO  Log - Clicking Login page link...
+2025-08-15 17:48:15 [main] INFO  Log - Entering email address
+2025-08-15 17:48:15 [main] INFO  Log - Entering password
+2025-08-15 17:48:15 [main] INFO  Log - Clicking show password
+2025-08-15 17:48:15 [main] INFO  Log - Clicking Log in button
+2025-08-15 17:48:16 [main] INFO  Log - Closing the Browser
+2025-08-15 17:48:16 [main] INFO  Log - Setting up WebDriver...
+2025-08-15 17:48:17 [main] INFO  Log - Navigating to test URL
+2025-08-15 17:48:18 [main] INFO  Log - Clicking Login page link...
+2025-08-15 17:48:18 [main] INFO  Log - Entering email address
+2025-08-15 17:48:18 [main] INFO  Log - Entering password
+2025-08-15 17:48:19 [main] INFO  Log - Clicking show password
+2025-08-15 17:48:19 [main] INFO  Log - Clicking Log in button
+2025-08-15 17:48:19 [main] INFO  Log - Closing the Browser
+2025-08-15 17:50:17 [main] INFO  Log - Setting up WebDriver...
+2025-08-15 17:50:18 [main] INFO  Log - Navigating to test URL
+2025-08-15 17:50:19 [main] INFO  Log - Clicking Login page link...
+2025-08-15 17:50:20 [main] INFO  Log - Entering password
+2025-08-15 17:50:20 [main] INFO  Log - Clicking show password
+2025-08-15 17:50:20 [main] INFO  Log - Clicking Log in button
+2025-08-15 17:50:20 [main] INFO  Log - Closing the Browser
+2025-08-15 17:50:20 [main] INFO  Log - Setting up WebDriver...
+2025-08-15 17:50:21 [main] INFO  Log - Navigating to test URL
+2025-08-15 17:50:23 [main] INFO  Log - Clicking Login page link...
+2025-08-15 17:50:23 [main] INFO  Log - Entering email address
+2025-08-15 17:50:23 [main] INFO  Log - Clicking Log in button
+2025-08-15 17:50:24 [main] INFO  Log - Closing the Browser
+2025-08-15 17:50:24 [main] INFO  Log - Setting up WebDriver...
+2025-08-15 17:50:25 [main] INFO  Log - Navigating to test URL
+2025-08-15 17:50:26 [main] INFO  Log - Clicking Login page link...
+2025-08-15 17:50:26 [main] INFO  Log - Entering email address
+2025-08-15 17:50:26 [main] INFO  Log - Entering password
+2025-08-15 17:50:26 [main] INFO  Log - Clicking show password
+2025-08-15 17:50:26 [main] INFO  Log - Clicking Remember Me checkbox
+2025-08-15 17:50:27 [main] INFO  Log - Clicking Log in button
+2025-08-15 17:50:27 [main] INFO  Log - Closing the Browser
+2025-08-15 17:50:27 [main] INFO  Log - Setting up WebDriver...
+2025-08-15 17:50:27 [main] INFO  Log - Navigating to test URL
+2025-08-15 17:50:28 [main] INFO  Log - Clicking Login page link...
+2025-08-15 17:50:29 [main] INFO  Log - Entering email address
+2025-08-15 17:50:30 [main] INFO  Log - Entering password
+2025-08-15 17:50:30 [main] INFO  Log - Clicking show password
+2025-08-15 17:50:30 [main] INFO  Log - Clicking Log in button
+2025-08-15 17:50:30 [main] INFO  Log - Closing the Browser
+2025-08-15 17:50:30 [main] INFO  Log - Setting up WebDriver...
+2025-08-15 17:50:31 [main] INFO  Log - Navigating to test URL
+2025-08-15 17:50:32 [main] INFO  Log - Clicking Login page link...
+2025-08-15 17:50:33 [main] INFO  Log - Entering email address
+2025-08-15 17:50:33 [main] INFO  Log - Entering password
+2025-08-15 17:50:33 [main] INFO  Log - Clicking show password
+2025-08-15 17:50:33 [main] INFO  Log - Clicking Log in button
+2025-08-15 17:50:33 [main] INFO  Log - Closing the Browser

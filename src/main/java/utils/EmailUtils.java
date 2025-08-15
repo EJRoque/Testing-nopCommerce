@@ -15,8 +15,8 @@ import jakarta.mail.internet.MimeMultipart;
 
 public class EmailUtils {
 	public static void sendTestReport(String reportPath) {
-		final String senderEmail = "automationtesting261@gmail.com";
-		final String appPassword = "wezkeghjndpdaxkn";
+		final String senderEmail = "automationtesting.selenium247@gmail.com";
+		final String appPassword = "ciedojrovgikdfha";
 		final String receipientEmail = "roquejernest770@gmail.com";
 
 		// SMTP server properties
@@ -45,7 +45,7 @@ public class EmailUtils {
 
 			// Email body part
 			MimeBodyPart textPart = new MimeBodyPart();
-			textPart.setText("\"Hello \n\nThis is a test email from Java \n\nRegards, \nQA Team");
+			textPart.setText("Hello \n\nThis is a test email from Java \n\nRegards, \nQA Team");
 
 			// Attachment part
 			MimeBodyPart attachmentPart = new MimeBodyPart();
